@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LottoProcessor", "LottoProcessor\LottoProcessor.csproj", "{2D769524-BFC4-49D2-A3B8-AAB769D330D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto.Data", "Lotto.Data\Lotto.Data.csproj", "{171913DF-98AB-40FF-A240-5AE9FCFAF61B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto.Services", "Lotto.Services\Lotto.Services.csproj", "{838CA0F4-703E-4B57-A1CD-A69AE9FBFC1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto.Models", "Lotto.Models\Lotto.Models.csproj", "{672C3012-5BB0-4326-B83B-586F5A92E71C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto.Tests", "Lotto.Tests\Lotto.Tests.csproj", "{F2DB8869-C5F9-4E08-8B15-07562249EB70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto.Api", "Lotto.Api\Lotto.Api.csproj", "{6D656A36-4E20-4940-B5D1-4B7497360864}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lotto.Web", "Lotto.Web\Lotto.Web.njsproj", "{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D769524-BFC4-49D2-A3B8-AAB769D330D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D769524-BFC4-49D2-A3B8-AAB769D330D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D769524-BFC4-49D2-A3B8-AAB769D330D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D769524-BFC4-49D2-A3B8-AAB769D330D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171913DF-98AB-40FF-A240-5AE9FCFAF61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171913DF-98AB-40FF-A240-5AE9FCFAF61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171913DF-98AB-40FF-A240-5AE9FCFAF61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171913DF-98AB-40FF-A240-5AE9FCFAF61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838CA0F4-703E-4B57-A1CD-A69AE9FBFC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838CA0F4-703E-4B57-A1CD-A69AE9FBFC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838CA0F4-703E-4B57-A1CD-A69AE9FBFC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838CA0F4-703E-4B57-A1CD-A69AE9FBFC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672C3012-5BB0-4326-B83B-586F5A92E71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672C3012-5BB0-4326-B83B-586F5A92E71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672C3012-5BB0-4326-B83B-586F5A92E71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672C3012-5BB0-4326-B83B-586F5A92E71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DB8869-C5F9-4E08-8B15-07562249EB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DB8869-C5F9-4E08-8B15-07562249EB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DB8869-C5F9-4E08-8B15-07562249EB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DB8869-C5F9-4E08-8B15-07562249EB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D656A36-4E20-4940-B5D1-4B7497360864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D656A36-4E20-4940-B5D1-4B7497360864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D656A36-4E20-4940-B5D1-4B7497360864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D656A36-4E20-4940-B5D1-4B7497360864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E97F7D-9E35-40BD-B899-DB116E329605}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿For Each NUmber
+
+Average Misses			-- Once its drawn, how many drawings on average until its picked again
+Max Misses				-- Max drawings where this was not picked
+Min Misses				-- Min of above
+Total Drawings Missed	
+Total Draws
+
+class LottoNumber {
+	// stuff above here
+	int key;
+	DateTime date;
+	// data we need 
+	// add your new vars you need
+}
+
+Database -> Getter -> Transform *^^ -> In Memory -> GUI -> Process Data Functions 
+
+Upload latest lotto drawings to database 
+Big/Long processes upload to database
+
+public Dictionary<int, LottoNumber> AllPossibleNumers;
+
+https://www.texaslottery.com/export/sites/lottery/Games/Mega_Millions/Winning_Numbers/megamillions.csv
+
