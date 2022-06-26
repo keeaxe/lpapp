@@ -13,9 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto.Models", "Lotto.Model
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto.Tests", "Lotto.Tests\Lotto.Tests.csproj", "{F2DB8869-C5F9-4E08-8B15-07562249EB70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto.Api", "Lotto.Api\Lotto.Api.csproj", "{6D656A36-4E20-4940-B5D1-4B7497360864}"
-EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Lotto.Web", "Lotto.Web\Lotto.Web.njsproj", "{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto.Api", "Lotto.Api\Lotto.Api.csproj", "{6D656A36-4E20-4940-B5D1-4B7497360864}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +45,6 @@ Global
 		{6D656A36-4E20-4940-B5D1-4B7497360864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D656A36-4E20-4940-B5D1-4B7497360864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D656A36-4E20-4940-B5D1-4B7497360864}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD2CF5B5-396A-4522-A2F7-E7BB8C5E1BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
