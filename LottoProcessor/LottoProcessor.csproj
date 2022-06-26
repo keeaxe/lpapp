@@ -9,16 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="data.csv" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="data.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="SimpleInjector" Version="5.3.3" />
   </ItemGroup>
 
